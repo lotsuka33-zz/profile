@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: 'Niramit', sans-serif;
+  color: rgb(80, 80, 80)   ;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  color: #e76838;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 33px;
+}
+
+h3 {
+  color: #929aab;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+a {
+  color: #929aab;
+  text-decoration: false;
+}
+
+a:hover {
+  color: #e76838;
+}
+
+
+/*background, border, border-radius and box-shadow*/
+/*margin/border/padding/width/height*/
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  border-radius: 5px;
+}
+
+.card {
+  background: white;
+  width: 800px;   /* This sets the width */
+  margin: 25px auto; /* This automatically sets left/right margins */
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgb(200,200,200);
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.list-inline {
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+}
+
+/*#welcome_banner {
+  background-image: url("/images/background.jpg");
+  height: 500PX;
+  width: 800PX;
+}*/
+
+#profile_picture {
+  background: #e6e7e5;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  margin: 0;
+}
+
+
+.movie_picture {
+  background: #e6e7e5;
+  border-radius: 5px;
+  height: 300px;
+  width: 200px;
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
+
+
